@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.innehåll {
+    height: 110vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(citys.jpg);
+}
+
+.forminput {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.titel {
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.showBtn {
+    background-image: linear-gradient(#f7f8fa, #e7e9ec);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, .6) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 29px;
+    font-size: 13px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 2px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin: 0px 0px 0px 5px;
+}
+
+.showBtn:active {
+    border-bottom-color: #414e61;
+}
+
+.showBtn:active:hover {
+    border-bottom-color: #414e61;
+}
+
+.showBtn:hover {
+    background: #aad3f5;
+    transition: 0.5s ease 0s;
+}
+
+.add-Btn {
+    background-image: linear-gradient(#f7f8fa, #e7e9ec);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, .6) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 29px;
+    font-size: 13px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 2px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin: 0px 0px 0px 5px;
+}
+
+.add-Btn:active {
+    border-bottom-color: #414e61;
+}
+
+.addBtn:active:hover {
+    border-bottom-color: #414e61;
+}
+
+.add-Btn:hover {
+    background: #aad3f5;
+    transition: 0.5s ease 0s;
+}
+
+.addCity {
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+
+.addPop {
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+
+.addCity:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.addPop:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.stad {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #adb1b8
+}
+
+.card {
+    margin: 20px 10px 0px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    z-index: 999;
+    background-color: #aaabae;
+    align-items: center;
+    border-radius: 2px;
+}
+
+ul {
+    display: flex;
+}
+
+.nav-links li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-links li a {
+    list-style-type: none;
+    color: #edf0f1;
+    padding: 4px 6px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #aad3f5
+}
+
+.card {
+    margin: 20px 10px 0px 10px;
+    background-color: lightskyblue;
+}
+
+.list-group-item {
+    background-color: lightskyblue;
+    font-family: "Montserrat", sans-serif;
+}
